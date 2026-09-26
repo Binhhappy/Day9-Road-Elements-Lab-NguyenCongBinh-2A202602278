@@ -1,1 +1,16 @@
 sample_id,decision_id,expected,severity,rationale
+BDD14,d1,label=drivable_direct x1 ở làn có xe bạc phía trước,major,xe ego ở làn thứ 4 từ trái giữa hai vạch đứt trắng
+BDD14,d2,label=drivable_alternative >= 3 và mọi polygon direction=same,major,cao tốc cùng chiều: 3 làn trái + 1 làn phải; chấp nhận thiếu làn xa nhất sát rào vì vạch mờ
+BDD14,d3,không có tag no_alternative và không có tag image_escalate,minor,ảnh rõ và có alternative
+BDD14,d4,geometry: cạnh trên direct dừng ở đường bánh sau xe bạc; không vẽ phần đường sau xe,minor,mục 3 guideline - xe phía trước che làn
+BDD05,d1,label=drivable_direct x1 giữa vạch vàng liền trái và vạch trắng liền phải,major,chỉ có một làn xe chạy
+BDD05,d2,không có polygon nào trên vùng kẻ nhiều vạch trắng bên phải,major,vùng kẻ sọc phân luồng không phải làn (mục 5)
+BDD05,d3,tag no_alternative,major,không có làn xe chạy nào khác cùng phần đường
+BDD05,d4,geometry: cạnh trái direct bám vạch vàng liền; không lấn ra lề đất bên trái,minor,mục 3 - bám vạch/curb
+BDD07,d1,label=drivable_direct x1 giữa vạch vàng liền đôi và vạch dải đỗ bên phải,major,xe ego ở làn bên phải vạch vàng đôi
+BDD07,d2,không có drivable_alternative bên trái vạch vàng liền đôi,critical,vạch vàng liền đôi loại trừ làn ngược chiều (mục 5); gắn nhầm = kế hoạch lấn làn ngược chiều
+BDD07,d3,không có polygon trên dải đỗ xe bên phải (chỗ xe đen đang đỗ),major,dải đỗ xe ngoài scope
+BDD07,d4,tag no_alternative,major,không còn làn cùng chiều nào khác
+BDD20,d1,label=drivable_direct x1 giữa vạch vàng liền đôi và vạch trắng liền thứ nhất bên phải,major,làn ego nằm giữa hai vạch
+BDD20,d2,không có drivable_alternative bên trái vạch vàng liền đôi,critical,vạch vàng liền đôi loại trừ làn ngược chiều
+BDD20,d3,geometry: polygon direct không phủ giá đỡ camera và capo,minor,mục 3 - xe ego/thiết bị che phần dưới ảnh

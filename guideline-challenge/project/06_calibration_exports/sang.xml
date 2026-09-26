@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>4</id>
+      <size>26</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-26 04:15:48.386872+00:00</created>
+      <updated>2026-09-26 05:22:03.762516+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>25</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>4</id>
+          <start>0</start>
+          <stop>25</stop>
+          <url>http://localhost:8080/api/jobs/4/dataset/export/api/jobs/4</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>duvansang</username>
+        <email>sang25112005@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>drivable_direct</name>
+          <color>#00e676</color>
+          <type>polygon</type>
+          <attributes>
+            <attribute>
+              <name>needs_review</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>drivable_alternative</name>
+          <color>#2979ff</color>
+          <type>polygon</type>
+          <attributes>
+            <attribute>
+              <name>direction</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+same
+opposite
+unknown</values>
+            </attribute>
+            <attribute>
+              <name>needs_review</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>no_alternative</name>
+          <color>#ff9100</color>
+          <type>tag</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>image_escalate</name>
+          <color>#d50000</color>
+          <type>tag</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-09-26 05:22:38.589018+00:00</dumped>
+  </meta>
+  <image id="0" name="BDD01.jpg" width="1280" height="720">
+  </image>
+  <image id="1" name="BDD02.jpg" width="1280" height="720">
+  </image>
+  <image id="2" name="BDD03.jpg" width="1280" height="720">
+    <polygon label="drivable_alternative" source="manual" occluded="0" points="1277.29,561.78;1186.65,559.07;864.61,422.64;772.96,383.54;695.71,354.12;680.56,341.33;689.08,334.77;780.46,351.07;888.62,371.30;989.75,391.25;1133.55,421.49;1280.00,453.04;1280.00,556.55" z_order="0">
+      <attribute name="direction">same</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_direct" source="manual" occluded="0" points="489.31,578.08;561.05,400.25;564.70,382.00;678.47,382.27;707.30,381.40;752.90,380.00;790.56,396.82;870.20,431.46;1042.23,509.86;1163.92,564.38;677.04,566.38" z_order="0">
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+  </image>
+  <image id="3" name="BDD04.jpg" width="1280" height="720">
+  </image>
+  <image id="4" name="BDD05.jpg" width="1280" height="720">
+  </image>
+  <image id="5" name="BDD06.jpg" width="1280" height="720">
+  </image>
+  <image id="6" name="BDD07.jpg" width="1280" height="720">
+  </image>
+  <image id="7" name="BDD08.jpg" width="1280" height="720">
+  </image>
+  <image id="8" name="BDD09.jpg" width="1280" height="720">
+  </image>
+  <image id="9" name="BDD10.jpg" width="1280" height="720">
+    <polygon label="drivable_alternative" source="manual" occluded="0" points="0.00,580.92;416.32,454.73;641.98,382.23;668.69,368.90;672.38,370.77;671.79,383.11;671.27,393.52;646.30,410.59;602.28,444.44;516.17,506.00;382.41,598.66;267.53,683.08;108.46,688.57;0.00,700.52" z_order="0">
+      <attribute name="direction">opposite</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_direct" source="manual" occluded="0" points="296.69,682.59;649.58,416.96;769.57,416.96;928.13,641.12;982.78,717.69;846.14,704.16;625.63,683.87" z_order="0">
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+  </image>
+  <image id="10" name="BDD11.jpg" width="1280" height="720">
+  </image>
+  <image id="11" name="BDD12.jpg" width="1280" height="720">
+  </image>
+  <image id="12" name="BDD13.jpg" width="1280" height="720">
+  </image>
+  <image id="13" name="BDD14.jpg" width="1280" height="720">
+  </image>
+  <image id="14" name="BDD15.jpg" width="1280" height="720">
+  </image>
+  <image id="15" name="BDD16.jpg" width="1280" height="720">
+    <polygon label="drivable_direct" source="manual" occluded="0" points="45.20,386.28;166.35,376.84;183.15,357.56;340.46,375.41;342.20,414.93;450.71,447.23;619.42,440.06;679.05,424.21;859.16,463.50;1203.41,547.78;1280.00,568.21;1280.00,605.55;1278.97,662.26;1024.96,615.72;722.72,575.41;434.59,559.63;277.54,560.46;257.24,519.32;209.30,468.29;138.53,416.70" z_order="0">
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+  </image>
+  <image id="16" name="BDD17.jpg" width="1280" height="720">
+    <polygon label="drivable_alternative" source="manual" occluded="0" points="750.98,410.30;611.70,286.70;679.17,282.17;678.31,269.70;712.71,273.14;863.63,295.93;862.77,313.99;926.41,333.77;1065.29,341.08;1111.30,331.19;1280.00,358.99;1280.00,423.40" z_order="0">
+      <attribute name="direction">same</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_alternative" source="manual" occluded="0" points="250.47,393.35;250.47,368.03;287.28,349.57;293.25,327.73;344.49,300.32;352.95,280.47;441.01,271.96;450.96,266.04;469.37,264.00;479.82,258.08;487.28,256.04;484.79,273.95;489.27,278.92;487.28,289.42;368.37,406.33" z_order="0">
+      <attribute name="direction">same</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_direct" source="manual" occluded="0" points="371.56,407.89;489.55,295.67;569.01,297.39;610.50,295.20;724.88,411.08" z_order="0">
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+  </image>
+  <image id="17" name="BDD18.jpg" width="1280" height="720">
+    <polygon label="drivable_alternative" source="manual" occluded="0" points="0.00,484.90;439.24,391.46;451.90,402.40;527.88,407.58;584.81,410.51;521.90,479.50" z_order="0">
+      <attribute name="direction">same</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_direct" source="manual" occluded="0" points="563.10,481.10;620.60,369.38;624.45,360.60;649.11,359.75;685.80,375.20;748.70,400.60;982.00,483.90" z_order="0">
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+  </image>
+  <image id="18" name="BDD19.jpg" width="1280" height="720">
+  </image>
+  <image id="19" name="BDD20.jpg" width="1280" height="720">
+  </image>
+  <image id="20" name="BDD21.jpg" width="1280" height="720">
+  </image>
+  <image id="21" name="BDD22.jpg" width="1280" height="720">
+  </image>
+  <image id="22" name="BDD23.jpg" width="1280" height="720">
+    <polygon label="drivable_direct" source="manual" occluded="0" points="70.59,684.30;525.23,422.17;570.93,418.76;576.50,423.20;584.34,421.76;603.84,420.31;673.16,464.88;722.58,498.20;897.64,607.34;924.90,628.00" z_order="0">
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+  </image>
+  <image id="23" name="BDD24.jpg" width="1280" height="720">
+    <polygon label="drivable_direct" source="manual" occluded="0" points="0.00,513.76;292.40,394.66;465.37,418.74;502.82,460.64;477.85,578.34;0.00,555.58" z_order="0">
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_alternative" source="manual" occluded="0" points="495.61,577.06;518.72,471.49;628.15,496.92;782.27,502.31;841.61,540.84;840.07,553.17;866.27,567.81;913.27,570.89;1119.79,716.54;954.89,719.62;763.01,628.69" z_order="0">
+      <attribute name="direction">same</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+  </image>
+  <image id="24" name="BDD25.jpg" width="1280" height="720">
+  </image>
+  <image id="25" name="BDD26.jpg" width="1280" height="720">
+  </image>
+</annotations>

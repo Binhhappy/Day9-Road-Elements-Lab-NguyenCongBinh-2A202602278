@@ -1,1 +1,14 @@
 sample_id,split,tags,reason
+BDD03,example,normal;conflict,Cao tốc: dải cỏ và hàng rào loại trừ làn ngược chiều; 1 direct và 1 alternative same
+BDD10,example,edge,Đường phố có vạch vàng đứt và làn xe đạp: thử luật opposite và loại trừ làn xe đạp
+BDD16,example,edge;conflict,Vùng kẻ sọc gore: thử luật không vẽ gore và làn bên kia gore
+BDD17,calibration,edge;occlusion;low_visibility,Mưa và taplo che nửa dưới: thử điểm dừng cạnh dưới và dải đỗ xe bên phải
+BDD18,calibration,low_visibility;edge,Ban đêm có vạch qua đường: thử luật crosswalk và điểm dừng ở capo
+BDD23,calibration,edge;ambiguity,Đường không vạch có xe đỗ hai bên: thử luật một chiều và tag no_alternative
+BDD24,calibration,ambiguity;occlusion,Đống tuyết chiếm phần đường bên phải: thử xác định làn ego và image_escalate
+BDD01,calibration,normal,Cao tốc nhiều làn cùng chiều: thử luật gắn mọi làn alternative chứ không chỉ làn kề
+BDD19,calibration,edge,Đường nhiều làn có vạch mờ dần: thử điểm dừng ở đầu xa
+BDD14,blind,normal,Cao tốc nhiều làn vạch đứt rõ: 1 direct và các alternative same
+BDD05,blind,edge,Vạch vàng mép trái và nhiều vạch trắng bên phải: thử phân biệt làn xe chạy với lề/vùng không lưu thông
+BDD20,blind,edge;occlusion,Khu dân cư có giá đỡ camera che giữa ảnh và dải đỗ xe bên phải: thử occlusion và loại trừ dải đỗ
+BDD07,blind,critical;conflict,Vạch vàng liền đôi ở giữa đường: làn bên kia không được gắn alternative

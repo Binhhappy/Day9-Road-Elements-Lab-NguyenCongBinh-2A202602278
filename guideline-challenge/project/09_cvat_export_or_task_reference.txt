@@ -1,8 +1,8 @@
 CVAT task reference — thay mọi placeholder mới là xong.
 
-CVAT version: TODO
-Task calibration (tên, id): TODO
+CVAT version: TODO — chạy `python lab9.py cvat` khi CVAT đang bật
+Task calibration (tên, id): TODO — tên và id task calibration của từng thành viên. Bản vẽ thử đầu tiên: job id 4, người tạo duvansang, export ngày 2026-09-26 (26 ảnh, đã vẽ 7 ảnh example/calibration), lưu ở `labday-09/annotations.xml`
 Task bản cuối theo guideline v3 (tên, id) hoặc lý do không có: TODO
-File export đã nộp (đường dẫn trong repo): TODO
+File export đã nộp (đường dẫn trong repo): TODO — `project/06_calibration_exports/<tên>.zip` của từng người; export của peer ở `project/07_blind_handoff/peer_output/`
 Guideline version dán trong Guide của task: TODO
-Ghi chú cho người tiếp nhận: TODO
+Ghi chú cho người tiếp nhận: Bộ nhãn trong `project/03_cvat_labels.json`, dán vào tab Raw khi tạo task. Dùng Shape, không dùng Track. `direction` mặc định `__undefined__` — trước khi export phải đổi hết.

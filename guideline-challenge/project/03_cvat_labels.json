@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "name": "drivable_direct",
+    "color": "#00e676",
+    "type": "polygon",
+    "attributes": [
+      { "name": "needs_review", "input_type": "checkbox", "mutable": true, "default_value": "false", "values": ["false"] }
+    ]
+  },
+  {
+    "name": "drivable_alternative",
+    "color": "#2979ff",
+    "type": "polygon",
+    "attributes": [
+      { "name": "direction", "input_type": "select", "mutable": true, "default_value": "__undefined__", "values": ["__undefined__", "same", "opposite", "unknown"] },
+      { "name": "needs_review", "input_type": "checkbox", "mutable": true, "default_value": "false", "values": ["false"] }
+    ]
+  },
+  { "name": "no_alternative", "color": "#ff9100", "type": "tag", "attributes": [] },
+  { "name": "image_escalate", "color": "#d50000", "type": "tag", "attributes": [] }
+]
